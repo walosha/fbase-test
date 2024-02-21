@@ -16,13 +16,10 @@ function App() {
             <div className="my-4">
               <Avatar size="large" src={logo} />
             </div>
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl font-bold  text-gray-900 sm:text-6xl">
               Welcome!
             </h1>
-            <p className="mt-4 text-xl text-gray-500">
-              This is a boilerplate build with Vite, React 18, TypeScript,
-              Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
-            </p>
+            <p className="mt-4 text-xl text-gray-500">FieldBase </p>
           </div>
           <div>
             <div className="my-10">
