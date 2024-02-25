@@ -1,8 +1,8 @@
 export default function Industries() {
   return (
-    <div className="mx-auto max-w-screen-xl lg:py-0 lg:-mb-72">
+    <div className="mx-auto md:px-16 sm:px-10 max-w-screen-xl lg:py-0 lg:-mb-72">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-8">
-        <div className="sm:px-5">
+        <div className="sm:px-10 px-0">
           <p className="font-primary text-2xl lg:text-4xl text-primary">
             Increase Efficiency And Lower Overhead Costs!{' '}
           </p>

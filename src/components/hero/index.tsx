@@ -48,7 +48,7 @@ export default function Hero() {
       </header>
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div className="grid max-w-screen-xl px-0 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div className="mr-auto place-self-center lg:col-span-5">
+          <div className="animate-fade-up animate-once animate-duration-1000 animate-delay-0 animate-ease-in-out mr-auto place-self-center lg:col-span-5">
             <h1 className="text-3xl font-primary tracking-tight text-white sm:text-4xl">
               Optimise Machine Performance And Predict Problems Before They Turn
               Into Disasters

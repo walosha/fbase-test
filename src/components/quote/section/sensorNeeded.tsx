@@ -13,7 +13,7 @@ export default function SensorNeeded({ setStage }: any) {
             <input
               type="text"
               placeholder=""
-              className="px-3 py-4 placeholder-blueGray-300 text-blueGray-600 relative bg-primaryLight3 rounded text-base border-0 shadow outline-none focus:outline-none focus:ring w-full h-20"
+              className="px-3 py-4 text-3xl text-white font-primary focus:border-primaryLight placeholder-blueGray-300 text-blueGray-600 relative bg-primaryLight3 rounded  border-0 shadow outline-none focus:outline-none focus:ring w-full h-16"
             />
           </div>
           <div className="flex items-center justify-end">
