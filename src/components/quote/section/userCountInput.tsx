@@ -1,6 +1,7 @@
 export default function UserCountInput({ setStage }: any) {
   return (
     <div className="container animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-in-out bg-primary">
+      <hr className="h-5 bg-primaryLight w-[50%]" />{' '}
       <div className="flex flex-col p-16">
         <div className="mb-10">
           <h5 className="text-white font-primary">Question 2/4</h5>

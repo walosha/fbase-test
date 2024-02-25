@@ -2,14 +2,15 @@ import React from 'react'
 
 export default function Cost({ setStage }: any) {
   return (
-    <div className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-in-out  container bg-primary px-20 py-10">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+    <div className="animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-in-out  container bg-primary ">
+      <hr className="h-5 bg-primaryLight w-[100%]" />{' '}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 px-20 py-10">
         <div className="p-5">
-          <h5 className="font-primary text-4xl text-white">
+          <h5 className="font-primary text-base lg:text-4xl mb-3 text-white">
             Subscription cost
           </h5>
           <ul>
-            <li className="flex text-xl mb-2 items-center mr-5">
+            <li className="flex text-sm lg:text-xl mb-2 items-center mr-5">
               <div className="mr-1">
                 <img src="/assets/landing/checkmark.svg" alt="" />
               </div>
@@ -17,37 +18,37 @@ export default function Cost({ setStage }: any) {
                 GSM + Satellite Connection
               </p>{' '}
             </li>
-            <li className="flex text-xl mb-2 items-center mr-5">
+            <li className="flex text-sm lg:text-xl mb-2 items-center mr-5">
               <div className="mr-1">
                 <img src="/assets/landing/checkmark.svg" alt="" />
               </div>
               <p className="font-primary text-white ">30 updates/hour </p>{' '}
             </li>
-            <li className="flex text-xl mb-2 items-center mr-5">
+            <li className="flex text-sm lg:text-xl mb-2 items-center mr-5">
               <div className="mr-1">
                 <img src="/assets/landing/checkmark.svg" alt="" />
               </div>
               <p className="font-primary text-white ">24 users </p>{' '}
             </li>
-            <li className="flex text-xl mb-2 items-center mr-5">
+            <li className="flex text-sm lg:text-xl mb-2 items-center mr-5">
               <div className="mr-1">
                 <img src="/assets/landing/checkmark.svg" alt="" />
               </div>
               <p className="font-primary text-white ">12 sensors </p>{' '}
             </li>
-            <li className="flex text-xl mb-2 items-center mr-5">
+            <li className="flex text-sm lg:text-xl mb-2 items-center mr-5">
               <div className="mr-1">
                 <img src="/assets/landing/checkmark.svg" alt="" />
               </div>
               <p className="font-primary text-white ">Performance reports </p>{' '}
             </li>
-            <li className="flex text-xl mb-2 items-center mr-5">
+            <li className="flex text-sm lg:text-xl mb-2 items-center mr-5">
               <div className="mr-1">
                 <img src="/assets/landing/checkmark.svg" alt="" />
               </div>
               <p className="font-primary text-white ">Video surveillance </p>{' '}
             </li>
-            <li className="flex text-xl mb-2 items-center mr-5">
+            <li className="flex text-sm lg:text-xl mb-2 items-center mr-5">
               <div className="mr-1">
                 <img src="/assets/landing/checkmark.svg" alt="" />
               </div>
@@ -55,13 +56,15 @@ export default function Cost({ setStage }: any) {
             </li>
           </ul>
           <hr className="h-px my-8 bg-white border-0 dark:bg-gray-700" />
-          <p className="text-white font-primary text-4xl">$200/month</p>
+          <p className="text-white text-base  font-primary lg:text-4xl">
+            $200/month
+          </p>
         </div>
         <div className="p-5 lg:w-3/5">
-          <h5 className="font-primary text-4xl text-white">
+          <h5 className="font-primary  text-base lg:text-4xl text-white">
             Installation cost
           </h5>
-          <p className="text-white text-xl  font-primary mb-4">
+          <p className="text-white text-sm text-sm lg:text-xl  font-primary mb-4">
             {' '}
             Your installation cost is calculated based on your location and the
             type of sensors you need. To find out the exact price send us an
