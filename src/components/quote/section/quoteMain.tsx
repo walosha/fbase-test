@@ -7,7 +7,7 @@ export default function QuoteMain({ setStage }: any) {
           <div className="w-[2.7rem] bg-white pt-1 lg:pt-2"></div>
           <div className="w-[4rem] bg-primaryLight pt-1 lg:pt-2"></div>
         </div>
-        <p className="text-white mb-5 text-5xl font-primary">
+        <p className="text-white mb-5 text-2xl lg:text-5xl font-primary">
           Get an instant quote for your business
         </p>
         <button
