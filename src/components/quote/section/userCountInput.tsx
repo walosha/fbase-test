@@ -18,7 +18,12 @@ export default function UserCountInput({ setStage }: any) {
             />
           </div>
           <div className="flex items-center justify-end">
-            <p className="text-lg font-primary text-white">Back</p>
+            <p
+              className="text-lg font-primary text-white cursor-pointer"
+              onClick={() => setStage(1)}
+            >
+              Back
+            </p>
             <button
               onClick={() => setStage(3)}
               type="button"

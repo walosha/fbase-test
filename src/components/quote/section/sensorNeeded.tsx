@@ -1,7 +1,7 @@
 export default function SensorNeeded({ setStage }: any) {
   return (
     <div className="container animate-fade-down animate-once animate-duration-1000 animate-delay-0 animate-ease-in-out bg-primary">
-      <hr className="h-5 bg-primaryLight w-[25%]" />{' '}
+      <hr className="h-5 bg-primaryLight w-[100%]" />{' '}
       <div className="flex flex-col p-16">
         <div className="mb-10">
           <h5 className="text-white font-primary">Question 4/4</h5>
@@ -18,7 +18,12 @@ export default function SensorNeeded({ setStage }: any) {
             />
           </div>
           <div className="flex items-center justify-end">
-            <p className="text-lg font-primary text-white">Back</p>
+            <p
+              className="text-lg font-primary text-white cursor-pointer"
+              onClick={() => setStage(3)}
+            >
+              Back
+            </p>{' '}
             <button
               onClick={() => setStage(5)}
               type="button"
