@@ -1,14 +1,14 @@
 export default function Features() {
   return (
     <div className="mx-auto max-w-screen-xl lg:py-20">
-      <div className="grid grid-cols-3 gap-3 sm:flex-col">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-3 sm:flex-col">
         <div className=" sm:col-span-1 md:col-span-1 sm:order-2">
           <div>
             <img src="/assets/landing/video.png" alt="" />
           </div>
         </div>
-        <div className="flex flex-col justify-evenly sm:col-span-3 md:col-span-1 sm:order-1">
-          <div className="flex flex-col text-right">
+        <div className="flex flex-col justify-evenly sm:order-1">
+          <div className="flex flex-col text-right sm:px-3">
             <div className="ml-auto">
               <img src="/assets/landing/rac.svg" alt="" />
             </div>
@@ -21,7 +21,7 @@ export default function Features() {
               few clicks.
             </p>
           </div>
-          <div className="flex flex-col sm:col-span-3 md:col-span-1 text-right">
+          <div className="flex flex-col text-right sm:px-3">
             <div className="ml-auto">
               <img src="/assets/landing/rac.svg" alt="" />
             </div>
@@ -35,8 +35,8 @@ export default function Features() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-evenly sm:col-span-3 md:col-span-1 sm:order-3">
-          <div className="flex flex-col text-right">
+        <div className="flex flex-col justify-evenly sm:order-3">
+          <div className="flex flex-col text-right sm:px-3">
             <div className="ml-auto">
               <img src="/assets/landing/rac.svg" alt="" />
             </div>
@@ -49,7 +49,7 @@ export default function Features() {
               operating in a safe environment.{' '}
             </p>
           </div>
-          <div className="flex flex-col text-right">
+          <div className="flex flex-col text-right sm:px-3 mb-10">
             <div className="ml-auto">
               <img src="/assets/landing/rac.svg" alt="" />
             </div>

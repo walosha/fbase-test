@@ -1,20 +1,20 @@
 export default function Industries() {
   return (
     <div className="mx-auto max-w-screen-xl lg:py-0 lg:-mb-72">
-      <div className="grid grid-cols-3 gap-4 ">
-        <div className="">
-          <p className="font-primary  lg:text-4xl text-primary">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-8">
+        <div className="sm:px-5">
+          <p className="font-primary text-2xl lg:text-4xl text-primary">
             Increase Efficiency And Lower Overhead Costs!{' '}
           </p>
         </div>
         <div className="col-span-2 ">
-          <p>
+          <p className="font-primary text-base text-primary">
             Using the R-Monitor, businesses, project managers, and field
             engineers can understand where they’re overspending and where
             they’re underutilising their equipment and crew’s potential in
             industries such as Telecom, Oil & Gas, and Marine.
           </p>
-          <p>
+          <p className="font-primary text-base text-primary">
             This way, you can distribute your assets more effectively,
             anticipate problems before they become a threat, and ensure your
             projects are always monitored effectively, giving you the advantage

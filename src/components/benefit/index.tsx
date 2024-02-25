@@ -2,7 +2,7 @@ export default function Benefits() {
   return (
     <div className="bg-primaryLight3 lg:w-5/6 sm:w-full py-4 lg:-mt-16 sm:mt-0 sm:relative">
       <div className="flex flex-col sm:flex-row">
-        <div className="px-16 py-16">
+        <div className="lg:px-16 px-4 lg:py-16 py-4">
           <div className="flex items-center mb-6 ">
             <img className="me-2" src="assets/landing/Dashboard.svg" />
             <p className="text-primaryLight font-primary ">Monitor assets</p>
@@ -13,7 +13,7 @@ export default function Benefits() {
             efficiency and growth!
           </p>
         </div>
-        <div className="px-16 py-16">
+        <div className="lg:px-16 px-4 lg:py-16 py-4">
           <div className="flex items-center mb-6">
             <img className="me-2" src="assets/landing/online.svg" />
             <p className="text-primaryLight font-primary">
@@ -26,7 +26,7 @@ export default function Benefits() {
             GSM networks.
           </p>
         </div>
-        <div className="px-16 py-16">
+        <div className="lg:px-16 px-4 lg:py-16 py-4">
           <div className="flex items-center mb-6">
             <img className="me-2" src="assets/landing/error.svg" />
             <p className="text-primaryLight font-primary">Thresholds Alerts</p>
