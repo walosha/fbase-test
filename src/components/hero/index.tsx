@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a
                 href="#"
-                className="text-sm font-semibold leading-6 text-white"
+                className="text-sm font-primary font-semibold leading-6 text-white"
               >
                 Log in
               </a>
