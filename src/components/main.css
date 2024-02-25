@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'core-san';
+  src: url('assets/font/Fontspring-DEMO-coresansc65.otf') format('opentype');
+  font-weight: 100;
+}
+
+/* src: url('assets/font/Fontspring-DEMO-coresansc45it.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc75it.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc15.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc45.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc75.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc25it.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc55it.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc85it.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc25.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc55.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc85.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc35it.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc65it.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc95it.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc35.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc65.otf') format('opentype');
+src: url('assets/font/Fontspring-DEMO-coresansc95.otf') format('opentype'); */
